@@ -11,36 +11,95 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Calculator"
-        android:textSize="25dp"
+        android:textSize="50sp"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="100dp"/>
 
     <EditText
         android:id="@+id/first_number"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Enter First Number"
-        android:textSize="25dp"
-        android:textColor="@color/black"
-        android:layout_centerHorizontal="true"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/title"/>
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Calculator"
+        android:hint="Enter First Number"
         android:textSize="25dp"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:gravity="start"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/first_number"/>
+        android:layout_below="@id/title"/>
+
+    <EditText
+        android:id="@+id/second_number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Second Number"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/first_number"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/second_number"/>
+
+   <Button
+        android:id="@+id/subtract"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="subtract"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/add"/>
+
+   <Button
+        android:id="@+id/multiply"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/subtract"/>
+
+   <Button
+        android:id="@+id/divide"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="divide"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/multiply"/>
 
 
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divide"
+        android:layout_marginTop="20dp"
+        android:text="answer"
+        android:textSize="50dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
 
 
 
