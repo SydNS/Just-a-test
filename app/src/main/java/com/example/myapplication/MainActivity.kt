@@ -22,19 +22,19 @@ class MainActivity : AppCompatActivity() {
 
 // the methods for calculating the various mathematical operations
         add.setOnClickListener {
-            answer?.text = "${first_number.text.toString().toInt() + second_number.text.toString().toInt()}"
+            answer?.text = "${first_number.text.toString().toFloat() + second_number.text.toString().toFloat()}"
 
         }
         subtract.setOnClickListener {
-            answer?.text = "${first_number.text.toString().toInt() - second_number.text.toString().toInt()}"
+            answer?.text = "${first_number.text.toString().toFloat() - second_number.text.toString().toFloat()}"
 
         }
         multiply.setOnClickListener {
-            answer?.text = "${first_number.text.toString().toInt() * second_number.text.toString().toInt()}"
+            answer?.text = "${first_number.text.toString().toFloat() * second_number.text.toString().toFloat()}"
 
         }
         divide.setOnClickListener {
-            answer?.text = "${first_number.text.toString().toInt() / second_number.text.toString().toInt()}"
+            answer?.text = "${first_number.text.toString().toFloat() / second_number.text.toString().toFloat()}"
 
         }
 
