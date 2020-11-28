@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/first_number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Enter First Number"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/title"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/first_number"/>
+
+
+
+
+
+</RelativeLayout>
